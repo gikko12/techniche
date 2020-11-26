@@ -1,0 +1,36 @@
+﻿[
+  {
+    "type": "Rectangle",
+    "positionX": 10,
+    "positionY": 10,
+    "width": 30,
+    "height": 40
+  },
+  {
+    "type": "Square",
+    "positionX": 15,
+    "positionY": 30,
+    "width": 35
+  },
+  {
+    "type": "Ellipse",
+    "positionX": 100,
+    "positionY": 150,
+    "horizontalDiameter": 300,
+    "verticalDiameter": 200
+  },
+  {
+    "type": "Circle",
+    "positionX": 1,
+    "positionY": 1,
+    "diameter": 300
+  },
+  {
+    "type": "Textbox",
+    "positionX": 5,
+    "positionY": 5,
+    "width": 200,
+    "height": 100,
+    "text": "sample text"
+  }
+]
