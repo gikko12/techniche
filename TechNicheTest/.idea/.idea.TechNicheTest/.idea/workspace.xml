@@ -19,17 +19,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="447de228-f9d6-4c42-a196-bd3864619c50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Data/widgets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Logs/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Output/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Circle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Ellipse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Rectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Square.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Textbox.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechNicheTest/Widgets/Widget.cs" afterDir="false" />
+    <list default="true" id="447de228-f9d6-4c42-a196-bd3864619c50" name="Default Changelist" comment="Test TechNiche">
+      <change afterPath="$PROJECT_DIR$/TechNicheTest/FileSystem/FileHandling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechNicheTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechNicheTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechNicheTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechNicheTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechNicheTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TechNicheTest/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +63,11 @@
         <option value="$PROJECT_DIR$/TechNicheTest/Widgets/Rectangle.cs" />
         <option value="$PROJECT_DIR$/TechNicheTest/Widgets/Ellipse.cs" />
         <option value="$PROJECT_DIR$/TechNicheTest/Widgets/Widget.cs" />
-        <option value="$PROJECT_DIR$/TechNicheTest/Data/widgets.json" />
-        <option value="$PROJECT_DIR$/TechNicheTest/Program.cs" />
         <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/TechNicheTest/Data/widgets.json" />
+        <option value="$PROJECT_DIR$/TechNicheTest/FileSystem/FileSystem.cs" />
+        <option value="$PROJECT_DIR$/TechNicheTest/Program.cs" />
+        <option value="$PROJECT_DIR$/TechNicheTest/FileSystem/FileHandling.cs" />
       </list>
     </option>
   </component>
@@ -125,8 +121,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606404394119</updated>
-      <workItem from="1606404401076" duration="13153000" />
+      <workItem from="1606404401076" duration="15182000" />
     </task>
+    <task id="LOCAL-00001" summary="Test TechNiche">
+      <created>1606423484172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606423484172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +143,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -147,6 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Test TechNiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test TechNiche" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606419039249">
@@ -161,22 +179,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="444" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606422602265" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606422810341">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606423353543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606422810341" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606422810341">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606423353543" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606423353543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606422810341" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606422810341">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606423353543" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606423353543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606422810341" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606422810341">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606423353543" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606423353543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606422810341" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606423353543" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1606422649416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,6 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606421670053" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606423590145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606423590145" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606419958878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
